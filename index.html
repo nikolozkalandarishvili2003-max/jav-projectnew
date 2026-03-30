@@ -19,7 +19,7 @@
         <ul>
           <li><a href="./index.html">Home</a></li>
           <li><a href="#" class="cartTrigger">Cart</a></li>
-          <li><a href="./html/log.html">Log in</a></li>
+          <li><a href="/html/log.html">Log in</a></li>
         </ul>
       </div>
       <video autoplay muted loop playsinline>
@@ -71,47 +71,7 @@
       <div class="cartItemsMain"></div>
       <div class="cartItemsFooter">
         <span>Total: <strong class="allTotalPrice"></strong></span>
-        <button id="toCheckOut">Go To Checkout</button>
       </div>
-
-      <form id="checkoutForm" class="checkoutForm hidden">
-        <h3 class="checkoutTitle">საკრედიტო ბარათი</h3>
-        <input
-          class="inp"
-          type="text"
-          id="cardHolder"
-          placeholder="ბარათის მფლობელი"
-          maxlength="60"
-          required
-        />
-        <input
-          class="inp"
-          type="text"
-          id="cardNumber"
-          placeholder="ბარათის ნომერი (1234 5678 9012 3456)"
-          maxlength="19"
-          required
-        />
-        <div class="checkoutRow">
-          <input
-            class="inp"
-            type="text"
-            id="cardExpiry"
-            placeholder="MM/YY"
-            maxlength="5"
-            required
-          />
-          <input
-            class="inp"
-            type="text"
-            id="cardCvv"
-            placeholder="CVV"
-            maxlength="3"
-            required
-          />
-        </div>
-        <button type="submit" class="buyBtn">შეძენა</button>
-      </form>
     </section>
 
     <script src="./app.js"></script>
